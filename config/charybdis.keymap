@@ -23,7 +23,7 @@
             bindings = <
 &trans  &trans  &kp SQT  &trans  &trans  &trans          &trans    &trans    &kp NUHS  &kp LBRC   &kp RBRC  &kp DEL
 &trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans    &trans    &trans    &kp LBKT    &kp RBKT   &kp F12
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans          &kp PG_UP &kp PG_DN &kp UP    &trans     &trqns    &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans          &kp PG_UP &kp PG_DN &kp UP    &trans     &trans    &trans
 &trans  &trans  &kp N1  &kp N2  &kp N3  &trans          &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &kp AT  &kp END
 &trans  &trans  &trans  &trans  &trans                                                &trans     &trans    &trans
             >;
