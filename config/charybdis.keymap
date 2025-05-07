@@ -22,9 +22,9 @@
         layer_1 {
             bindings = <
 &trans  &trans  &kp SQT  &kp NUHS  &trans  &trans          &trans    &trans    &kp NUHS  &kp LBRC   &kp RBRC  &kp DEL
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans    &trans    &trans    &kp LBKT    &kp RBKT   &kp F12
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans          &kp PG_UP &kp PG_DN &kp UP    &trans     &kp AT_SIGN    &trans
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans          &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp END
+&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans    &trans    &kp LBKT    &kp RBKT   &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans          &kp PG_UP &kp PG_DN &kp UP    &trans     &kp AT_SIGN    &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp END
 &trans  &trans  &trans  &trans  &trans                                                &trans     &trans    &trans
             >;
         };
@@ -32,9 +32,9 @@
         layer_2 {
             bindings = <
 &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5          &kp F6    &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans    &trans    &trans    &trans     &trans   &kp F12
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans          &kp PG_UP &kp PG_DN &kp UP    &trans   &kp AT_SIGN   &trans
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans          &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &kp END
+&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans    &trans    &trans     &trans   &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans          &kp PG_UP &kp PG_DN &kp UP    &trans   &kp AT_SIGN   &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &kp END
 &trans  &trans  &trans  &trans  &trans                                                &trans     &trans   &trans
             >;
         };
