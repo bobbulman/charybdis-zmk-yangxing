@@ -9,7 +9,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-&mt {
+mt {
     tapping-term-ms = <100>; // 200 is default
 };
 
