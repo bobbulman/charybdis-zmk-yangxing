@@ -27,7 +27,7 @@
             bindings = <
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp NUHS  &kp DOLLAR  &kp PERCENT          &kp CARET    &kp AMPERSAND    &kp NUHS  &kp LBRC   &kp RBRC  &kp DEL
 &trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans    &trans    &kp LBKT    &kp RBKT   &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans          &kp PG_UP &kp PG_DN &kp UP    &trans     &kp AT_SIGN    &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &kp PG_UP &kp PG_DN &kp UP    &trans     &kp PIPE    &trans
 &trans  &trans  &trans  &trans  &trans  &trans          &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT  &kp NUBS  &kp END
 &trans  &trans  &trans  &trans  &mkp MCLK                                                &trans     &trans    &trans
             >;
