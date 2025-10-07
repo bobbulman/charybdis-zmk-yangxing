@@ -57,7 +57,7 @@
 &trans     &trans     &trans          &trans     &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans     &trans          &trans     &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans     &trans          &mo 3      &mo 4         &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans          &trans     &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &trans          &trans     &trans        &trans          &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK
 &mkp LCLK  &msc SCRL_DOWN &mkp RCLK &mkp LCLK  &msc SCRL_UP                                          &trans  &trans  &trans
             >;
         };
