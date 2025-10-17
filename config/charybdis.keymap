@@ -4,13 +4,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-#define CONFIG_ZMK_POINTING_SMOOTH_SCROLLING=y
-// Reversed (Scroll down zooms in, scroll right moves left)
-#define SCROLL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
-#define SCROLL_RIGHT SCROLL_HOR(-U_MOUSE_SCROLL_MAX)
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 0    // default: 10
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 1    // default: 10
+#define CONFIG_PMW3610_INVERT_SCROLL_Y=y
 
 #include <dt-bindings/zmk/pointing.h>
 
