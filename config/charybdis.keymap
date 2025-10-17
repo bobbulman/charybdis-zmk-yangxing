@@ -7,8 +7,6 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 0    // default: 10
 
-#define CONFIG_PMW3610_INVERT_SCROLL_Y=y
-
 #include <dt-bindings/zmk/pointing.h>
 
 &sl {
