@@ -12,6 +12,8 @@
     release-after-ms = <100>;
 };
 
+&zip_scroll_scaler 2 1;
+
 / {
     keymap {
         compatible = "zmk,keymap";
