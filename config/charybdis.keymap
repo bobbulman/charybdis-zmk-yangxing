@@ -92,7 +92,7 @@
 &trans     &trans     &trans          &trans     &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans     &trans          &mo 3      &mo 4         &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans     &trans          &trans     &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&mkp LCLK  &msc U_WH_U &mkp RCLK &mkp LCLK  &msc U_WH_D                                          &trans  &trans  &trans
+&mkp LCLK  &mwh SCROLL_UP &mkp RCLK &mkp LCLK  &mwh SCROLL_DOWN                                          &trans  &trans  &trans
             >;
         };
 
