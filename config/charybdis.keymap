@@ -7,10 +7,10 @@
 
 // This is was you need for setting the scroll speed
 #define U_MOUSE_SCROLL_MAX 20 
-#undef SCRL_UP
-#undef SCRL_DOWN
-#define SCRL_UP SCROLL_VERT(U_MOUSE_SCROLL_MAX)
-#define SCRL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
+#undef SCROLL_UP
+#undef SCROLL_DOWN
+#define SCROLL_UP SCROLL_VERT(U_MOUSE_SCROLL_MAX)
+#define SCROLL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
 
 / {
     keymap {
@@ -61,7 +61,7 @@
 &trans     &trans     &trans          &trans     &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans     &trans          &mo 3      &mo 4         &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans     &trans          &trans     &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&mkp LCLK  &msc SCRL_UP &mkp RCLK &mkp LCLK  &msc SCRL_DOWN                                          &trans  &trans  &trans
+&mkp LCLK  &msc SCROLL_UP &mkp RCLK &mkp LCLK  &msc SCROLL_DOWN                                          &trans  &trans  &trans
             >;
         };
 
