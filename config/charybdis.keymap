@@ -1,3 +1,4 @@
+#include <input/processors.dtsi>
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
@@ -5,6 +6,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+
+ input_processors {
+        my_rotation_event_transform: my_rotation_event_transform {
+            compatible = "zmk,input-processor-transform";
+            #input-processor-cells = <1>;
+            type = <INPUT_EV_REL>;
+            x-codes = <INPUT_REL_RX>;
+            y-codes = <INPUT_REL_RY>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
