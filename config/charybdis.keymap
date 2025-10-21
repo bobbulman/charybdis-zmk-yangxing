@@ -6,6 +6,8 @@
 #define SCRL_UP SCROLL_VERT(U_MOUSE_SCROLL_MAX)
 #define SCRL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
 
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 10
+
 #include <input/processors.dtsi>
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
