@@ -1,4 +1,4 @@
-#define U_MOUSE_SCROLL_MAX 25  
+#define U_MOUSE_SCROLL_MAX 5 
 #undef SCRL_UP
 #undef SCRL_DOWN
 #undef SCROLL_LEFT
