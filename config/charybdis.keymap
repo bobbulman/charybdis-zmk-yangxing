@@ -1,10 +1,10 @@
-#define U_MOUSE_SCROLL_MAX 100  
-#undef SCROLL_UP
-#undef SCROLL_DOWN
+#define U_MOUSE_SCROLL_MAX 25  
+#undef SCRL_UP
+#undef SCRL_DOWN
 #undef SCROLL_LEFT
 #undef SCROLL_RIGHT
-#define SCROLL_UP SCROLL_VERT(U_MOUSE_SCROLL_MAX)
-#define SCROLL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
+#define SCRL_UP SCROLL_VERT(U_MOUSE_SCROLL_MAX)
+#define SCRL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
 
 #include <input/processors.dtsi>
 #include <behaviors/mouse_keys.dtsi>
