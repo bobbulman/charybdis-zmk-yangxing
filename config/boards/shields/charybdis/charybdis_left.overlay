@@ -21,7 +21,7 @@
 
 &pmw_listener {
 	status = "okay";
-	input-processors = <&zip_scroll_scaler 1 3>; 
+
 
 	// when layer 2 is active, the trackball will act as a mouse wheel
 	scroller {
