@@ -76,7 +76,7 @@ nice_view_spi: &spi2 {
 
 &pmw_split {
 	device = <&trackball>;
-	input-processors = <&zip_scroll_scaler 1 3>; 
+	
 // see https://zmk.dev/docs/keymaps/input-processors for more information
 	// input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT)>;
 };
