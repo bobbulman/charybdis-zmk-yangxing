@@ -19,14 +19,14 @@
 
 / {
 
-
+trackpad_listener {
+    input-processors = <&zip_xy_scaler 1 3>;
+}
 
     keymap {
        compatible = "zmk,keymap";
 
-trackpad_listener {
-    input-processors = <&zip_xy_scaler 1 3>;
-}
+
 
 
         colemak-dh {
